@@ -1,0 +1,183 @@
+html {
+  background-color: #cfcfcd;
+  height: 100%;
+  min-height: 1054px;
+  min-width: 1260px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1a38;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #cfcfcd;
+}
+
+pre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #cfcfcd;
+}
+
+body {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  height: 100%;
+  background-color: #32322c;
+  margin: 0 auto;
+}
+body .row {
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1a38;
+}
+body .row #background-img {
+  flex: none;
+  flex-basis: none;
+  width: 30%;
+  display: flex;
+}
+body .row #background-img img {
+  min-width: 378px;
+  width: 30%;
+  position: absolute;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .row #background-img .row {
+  height: 50%;
+  align-items: center;
+}
+body .row #background-img .row #titlecard {
+  height: 20%;
+  width: 100%;
+  opacity: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  background-color: #4D3554;
+}
+body .row #background-img .row #titlecard .row {
+  justify-content: space-evenly;
+  height: 100%;
+  background-color: rgba(31, 26, 56, 0);
+  margin: 0;
+  width: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #cfcfcd;
+}
+body .row #background-img .row #titlecard img {
+  min-width: 0px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+body .row #login-content {
+  width: 90%;
+  margin-left: 5%;
+}
+body .row #login-content #intro {
+  flex-direction: column;
+  justify-content: end;
+  display: flex;
+  height: 30%;
+  flex: none;
+}
+body .row #login-content #intro p {
+  font-size: 1.2rem;
+}
+body .row #login-content #intro pre {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+body .row #login-content #forms {
+  height: 70%;
+  display: block;
+  flex: none;
+}
+body .row #login-content #forms #form {
+  height: 15%;
+}
+body .row #login-content #forms #form #page .input {
+  letter-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #cfcfcd;
+  margin-right: 10%;
+  flex-direction: column;
+  display: flex;
+  flex-flow: column wrap;
+}
+body .row #login-content #forms #form #page .input input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4D3554;
+  border: 1px solid #4D3554;
+  border-radius: 3px;
+  font-size: 18px;
+  height: 35px;
+  width: 400px;
+  color: #cfcfcd;
+  outline: none;
+}
+body .row #login-content #forms #form .button-66 {
+  background-color: #7B506F;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1, 60, 136, 0.5) 0 -1px 3px 0 inset, rgba(0, 44, 97, 0.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+body .row #login-content #forms #form .button-66:hover {
+  background-color: #4D3554;
+  transform: translateY(-2px);
+}
+@media (min-width: 768px) {
+  body .row #login-content #forms #form .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */
